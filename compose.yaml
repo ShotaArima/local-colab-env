@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "9005:9005"
+    volumes:
+      - ./:/app
